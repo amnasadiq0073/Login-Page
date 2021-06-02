@@ -1,0 +1,16 @@
+1)First create new web dynamic project and start tomcat server.
+2)under src create login.jsp file which contains login form design.
+3)create packages 
+4)create LoginServlet.java inside controller package with /login user mapping
+6)Create User.java inside Modelpackage. this class 
+7)Create UserDao.java class inside database package contains jdbc and databse connections.
+
+explanation of program
+when click on login , it will call doPost method inside the LoginServlet class.
+in this doPost, validate the username and password.
+and then validate method load the jdbc driver, getconnection methods and then fetch 
+username & password match them if validated then directed to loginsucces.jsp
+
+
+
+
